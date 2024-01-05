@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.head{
+    background-image: url(Images/cow-1715829_1280\ \(1\).jpg);
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(24% 0, 76% 0, 100% 20%, 94% 79%, 70% 100%, 28% 100%, 7% 80%, 0% 20%);
+}
+
+.head h1{
+ color: azure;
+ text-align: center;
+ font-size: 100px;
+ padding-top: 60px;
+ font-weight: 900px;
+ font-family: cursive;
+ letter-spacing: 20px;
+ word-spacing: 40px;
+
+}
+
+.article,#typecow{
+    width: 80%;
+    height: 600px;
+  margin: 60px auto;
+  background:linear-gradient(rgb(65, 58, 58), lightgrey);
+ padding: 60px;
+ border: 15px solid darkgrey;
+ box-shadow: 5px 5px 5px 5px;
+}
+.article h2{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 50px;
+  
+}
+.article p{
+    font-size: 25px;
+    word-spacing: 20px;
+    line-height: 2em;
+}
+.article p .imp {
+    font-size: 2em;
+    font-weight: 800px;
+    word-spacing: 40px;
+    background-color: rgb(66, 41, 41);
+    width:900px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.cowtype,.two{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+}
+
+.cowtype div{
+    width: 500px;
+}
+.two{
+    width: 100%;
+}
